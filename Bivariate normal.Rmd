@@ -3,7 +3,7 @@ title: "Motivation for the bivariate normal distribution: an example (of what it
 author: "Fernando Pazos Ruiz"
 output: 
  bookdown::html_document2: default
- keep_md: true
+  keep_md: true
 ---
 This article does not intend to actually explain what the bivariate normal distribution is but rather expose an example and, through it, reflect on the absence of properties that would be seen if we were dealing with a bivariate normal distribution. We will, nonetheless, mention the concept a few times. Whenever you see the concept is mentioned try to think how would the generalization of a normal density look like for two variables: it would be a three-dimensional bell sitting on top of a two-dimensional plane.
 
