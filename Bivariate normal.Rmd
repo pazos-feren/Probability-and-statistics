@@ -142,6 +142,8 @@ cor(sample_x, sample_y)
 
 The absolute value of the correlation coefficient that you are going to get is probably not greater than $0.2$^[No fancy calculation has led me to this conclusion, I just checked with different seeds.]. That being so, we should expect the *theoretical* correlation to be low.
 
+&nbsp;
+
 The covariance between $X$ and $Y$ is 
 
 \begin{align}
