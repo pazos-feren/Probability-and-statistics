@@ -139,7 +139,6 @@ Before tackling this problem mathematically, why don't we compute Pearson's corr
 ```{r}
 cor(sample_x, sample_y)
 ```
-&nbsp;
 
 The absolute value of the correlation coefficient that you are going to get is probably not greater than $0.2$^[No fancy calculation has led me to this conclusion, I just checked with different seeds.]. That being so, we should expect the *theoretical* correlation to be low.
 
@@ -182,7 +181,6 @@ y_close_minus_1.1 = sample_y[sample_x >= -1.6 & sample_x <= -0.6]
 
 length(y_close_minus_1.1[y_close_minus_1.1 < 0])/length(y_close_minus_1.1)
 ```
-&nbsp;
 
 We have selected all observations of the sample of $Y$ that, **before being multiplied by $J$**, used to be close to $-1.1$ (between $-1.6$ and $-0.6$). Then, out of those observations, we calculated the fraction of negative values **after being multiplied by $J$.** It is around half, as expected.
 
