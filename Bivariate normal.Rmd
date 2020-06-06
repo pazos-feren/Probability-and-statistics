@@ -115,10 +115,10 @@ Regarding the last step in our derivation, it is legitimate due to the fact that
 
 &nbsp;
 
-Now, $t$ serves as nothing more than a placeholder. We are allowed to denote the argument of function $f_{Y|J}$ however we want. Actually, it feels more natural to denote it $y$.  
+Now, $t$ serves as nothing more than a placeholder. We are allowed to denote the argument of function $f_{Y|J}$ however we want. Actually, it feels more natural to denote it $y$.
 
 
-Replacing the conditional densities ---and the respective probabilities of the different values of $j$--- on equation \@ref(eq:totalprobability) yields: $$f_Y(y) = f_X(y)$$.
+Replacing the conditional densities ---and the respective probabilities of the different values of $j$--- on equation \@ref(eq:totalprobability) yields: $$f_Y(y) = f_X(y)$$
 
 This result leaves no doubt: the reason why samples of $X$ have histograms similar to those of the samples of $Y$ is because **$X$ and $Y$ have the same distribution** ---i.e. they are _identically distributed_---.
 
