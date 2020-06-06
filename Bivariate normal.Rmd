@@ -111,7 +111,7 @@ Regarding the last step in our derivation, it is legitimate due to the fact that
 
 &nbsp;
 
-**By an analogous approach it is not hard to show that $f_{Y|J}(t|1) = f_X(t)$.**
+**By an analogous approach it is not hard to show that $\hspace{1mm} f_{Y|J}(t|1) = f_X(t)$.**
 
 &nbsp;
 
