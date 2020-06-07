@@ -101,7 +101,7 @@ P(Y \leq t|J=-1) &= P(X \geq-t) \\
 Next, we take the derivative of both sides of this equation with respect to $t$.
 
 \begin{align}
-\hspace{19.6mm} f_{Y|J}(t|-1) &= -\frac{d}{dt} \Big(\int_{-\infty}^{-t}f_X(x)dx\Big) \\ \\
+\hspace{19.5mm} f_{Y|J}(t|-1) &= -\frac{d}{dt} \Big(\int_{-\infty}^{-t}f_X(x)dx\Big) \\ \\
  &= -f_X(-t)\cdot \frac{d}{dt}(-t) \\ \\
  &= f_X(-t) \newline
  &= f_X(t)
